@@ -34,7 +34,7 @@ body {
 	}
 
 	body{
-	background-image: url("assets\images\background-01.png");
+	background-image: url('../../assets/images/background3.png');
 	background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
@@ -67,6 +67,7 @@ p {
 	}
 
 article {
+	 border-radius: 25px;
 	  float: center;
 	  padding: 30px;
 	  width: 100%;
@@ -204,6 +205,7 @@ tr:hover {
 /*Navigation Bar*/
 
 	.navBar {
+		border-radius: 25px;
 	  overflow: hidden;
 	  background-color: skyblue;
 	}
