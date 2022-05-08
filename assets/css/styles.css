@@ -129,6 +129,30 @@ margin: 25px;
 margin-top: 4%;
 }
 
+.navbuttons a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+	background-color: skyblue;
+	color: white;
+	border-radius:25px;
+	width:20%;
+	text-align:center;
+}
+
+.navbuttons a:hover {
+  background-color: #1CA8C7;
+  color: black;
+}
+
+.next{
+	float:right;
+}
+
+.prev{
+	float:left;
+}
+
 
 /*Navigation Bar*/
 
