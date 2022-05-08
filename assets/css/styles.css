@@ -129,7 +129,7 @@ margin: 25px;
 margin-top: 4%;
 }
 
-.navbuttons a {
+.navbuttons-next a {
   text-decoration: none;
   display: inline-block;
   padding: 20px;
@@ -138,21 +138,33 @@ margin-top: 4%;
 	border-radius:25px;
 	width:20%;
 	text-align:center;
+	float:right;
 }
 
-.navbuttons a:hover {
+.navbuttons-prev a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+	background-color: skyblue;
+	color: white;
+	border-radius:25px;
+	width:20%;
+	text-align:center;
+	float:left;
+}
+
+
+.navbuttons-next a:hover {
   background-color: #1CA8C7;
   color: black;
 }
 
-.next{
-	float:right;
-}
 
-.prev{
-	float:left;
-}
 
+.navbuttons-prev a:hover {
+  background-color: #1CA8C7;
+  color: black;
+}
 
 /*Navigation Bar*/
 
