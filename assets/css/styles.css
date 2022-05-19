@@ -129,6 +129,11 @@ margin: 25px;
 margin-top: 4%;
 }
 
+.fullwidth{
+width:100%;
+margin:25px;
+}
+
 .navbuttons-next a {
   text-decoration: none;
   display: inline-block;
@@ -191,7 +196,7 @@ margin-top: 4%;
 	}
 
 	.navBar a.active {
-	  background-color: #2884ec;
+	  background-color: #ffc200;
 	  color: white;
 	}
 
@@ -225,7 +230,7 @@ margin-top: 4%;
 	  outline: none;
 	  color: #FFFFFF;
 	  padding: 20px;
-	  background-color: #2884ec;
+	  background-color: #ffc200;
 	  font-family: inherit;
 		width:100%;
 	}
