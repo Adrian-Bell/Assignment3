@@ -90,7 +90,9 @@ The aim of Mythos is to provide a simple yet comprehensive solution for the mana
 The management of these details is key to creative expression, and by subscribing to a simple yet comprehensive tool users will spend less time wading through notes and more time crafting stories and other content.  Building the framework of a world in Mythos will allow the user to craft their imagined environment within a simple and efficient tool which provides both management of intricate details and powerful visual tools to view overarching themes and plotlines.
 </p>
 <h3>Goals</h3>
-<br>
+<p>
+We have identified six goals we need to meet in order to work successfully towards the aim of a simple yet comprehensive content management application.  An overview of each goal is laid out under the following subheadings, with detailed information on the progress made during the assignment discussed in the Plans and Progress section.
+</p>
 <h4>Wiki</h4>
 <p>
 The complex details of the user’s creative projects will be stored in a wiki-style document storage system.  As the core features of the wiki form the foundation of the project this will be a priority for development.  Individual pages will be created for each asset, and these will be organised in a hierarchical system as described below.
@@ -139,11 +141,11 @@ A founding principle of the Mythos project is that the application should be int
 </article>
 
 <article>
-<h3>Plans And Progress</h3>
+<h2>Plans And Progress</h2>
 <br>
-<h4>Project Origin</h4>
+<h3>Project Origin</h3>
 <p>
-The original concept for Mythos came from an interest in designing an application to store the lore of a fantasy world for tabletop Role Playing Games (RPGs)  The idea was first included in Kieran’s Assignment 1 submission and during the early stages of forming Kaalab the group decided to further develop the plan for the remainder of the course.  This has proven to be an excellent decision, as all members have got behind the project and we have all taken great satisfaction in bringing Mythos to its current state.
+The original concept for Mythos came from an interest in designing an application to store the lore of a fantasy world for tabletop Role Playing Games (RPGs)  The idea was first introduced in Kieran’s Assignment 1 submission and during the early stages of forming Kaalab the group decided to further develop the plan for the remainder of the course.  This has proven to be an excellent decision, as all members have got behind the project and we have all taken great satisfaction in bringing Mythos to its current state.
 </p>
 <p>
 During Assignment 2 we were required to build the idea for the project into a much more structured and well-defined concept.  The input of all group members has been invaluable in bringing Mythos to life, and after developing the vision we were excited to get to work on the implementation stage.
@@ -152,16 +154,15 @@ During Assignment 2 we were required to build the idea for the project into a mu
 As we have worked on bringing the plans to fruition we have learned lessons, overcome a number of obstacles and changed details of the project due to others.  We have enjoyed the process and as Mythos has grown Kaalab has come together as a productive and truly collaborative team.
 </p>
 <br class="clear">
-<h4>Project Implementation</h4>
-<a href="http://www.mythos.ltd">www.mythos.ltd</a>
+<h3>Project Implementation</h3>
+<a href="http://www.mythos.ltd"><img class="project-link" src="assets\images\mythosss.png"></a>
+<br class="clear"><p>
 <p>
 Username - mythos@mythos.com
 </p>
 <p>
 Password - Mythos
 </p>
-<br>
-<p>
 Over the course of the previous assignments Kaalab has established a well defined proposal for the development of Mythos.  As we have worked on this assignment we have set this plan in motion to create a working prototype of the project.  Inevitably there have been a number of changes made to the original plan, however we have been able to establish a functioning instance of Mythos which accurately represents the core aspects of the project as defined over the preceding weeks.
 </p>
 <p>
@@ -171,7 +172,7 @@ The prototype application features a wiki for storage of creative details, along
 The intended function of the various elements of the project have been discussed in the goals section of this report, and information on the development and implementation of significant aspects of the project is outlined under the relevant headings below.  Explanations of the implementation of the prototype should be read with consideration to the information contained in the scope section of this report.  Whilst the prototype demonstrates most of the key features of the project, we have also outlined a plan to further develop and refine the application if it were to be brought to market.
 </p>
 <br class="clear">
-<h4>Hosting</h4>
+<h3>Hosting</h3>
 <p>
 In the early stages of the Mythos project we identified the hosting of the wiki as an area of high importance.  Since this is such a core part of the project we recognised that our first priority should be finding a way to host an instance of BookStack and provide access to all members.
 </p>
@@ -187,13 +188,13 @@ Initially the plan to use AWS for hosting involved the use of a t2.micro instanc
 <br class="clear">
 
 
-<h4>Wiki</h4>
+<h3>Wiki</h3>
 <p>
-
+Currently the wiki aspect of Mythos is provided by the instance of BookStack which we have hosted on our server.  The structure of the documentation has proven to be easy to use and demonstrates a fair representation of what we envisioned in the planning stage.  Before Mythos is taken to market we would like to see a template system for more consistent organisation of content.  This would mean that when a user generates a new project they already have the framework of Character, Location, Timeline and Item sections ready to populate with data.  We would also rename the hierarchical levels of the wiki to better reflect their use in Mythos.  In addition we would also seek to implen=ment an automatic linking system as discussed in the goals section of this report.  For the purposes of a proof of concept we have found the integrated semi-automated linking system to be sufficient.
 </p>
 
 <br class="clear">
-<h4>Maps</h4>
+<h3>Maps</h3>
 <p>
 For the prototype the map function is provided by Azgaars’s Fantasy Map Generator, an open source application which we have embedded into the map pages of the wiki.  This gives a demonstration of the functionality we would like to develop further for the market-ready version of Mythos.
 </p>
@@ -210,17 +211,17 @@ Initial investigations of the problem have found that the map generator is able 
 Further investigation of this issue would be a priority in the development of the map function of the full version of Mythos, however given the substantial changes in the level of integration of the map function it is likely that this would not be a major problem moving forwards.  We would intend to offer map storage as part of our subscription model when Mythos is taken to market.  This would give subscribers the option of a basic plan which allows the user to save on their device, or in their own Dropbox account.  A premium solution would allow the user to store maps on our server for a small additional fee.
 </p>
 <br class="clear">
-<h4>Timelines</h4>
+<h3>Timelines</h3>
 <p>
 
 </p>
 <br class="clear">
-<h4>Relationship Web</h4>
+<h3>Relationship Web</h3>
 <p>
 
 </p>
 <br class="clear">
-<h4>User Interface</h4>
+<h3>User Interface</h3>
 <p>
 The prototype we have produced has used BookStack as a foundation, with significant aesthetic enhancements having been made to the interface to better reflect the character of Mythos.  This has largely been done by adding CSS to a custom head section.  This has allowed us to change fonts, add background images and perform funtions such as changing the default sizes and colours of various elements across the prototype.  This solution works well for the prototype as a proof of concept, however if the project were to undergo further development significant additional alterations of the source code would be required. Custom themes is another enhancement that would be developed, since the application will appeal to wide range of creatives with very different artistic visions.
 </p>
@@ -228,14 +229,26 @@ The prototype we have produced has used BookStack as a foundation, with signific
 Elements such as timelines and maps have been incorporated into the project as a demonstration of the concepts we would plan to implement fully if the project were to progress further.  In the prototype these elements have been embedded into the releavant positions using an iframe element, with further integration of these tools being a priority for the release version of Mythos.
 </p>
 <br class="clear">
-<h4>Security</h4>
+<h3>Security</h3>
 <p>
-
+Security is an area which needs to be greatly enhanced for the project.  At present the server is not configured for Hyper Text Transfer Protocol Secure (https) traffic, which would be wholly unacceptable for any application brought to market in 2022.  Installation of a Secure Sockets Layer (SSL) certificate and configuration for https traffic would be a priority moving forward, and an absolute necessity prior to going to market.
+</p>
+<p>
+Unfortunately an attempt to configure this arrangement led to a crisis moment in the development of Mythos.  An elastic IP address was required to assign a custom domain name to the site for use with the SSL certificate, however once the elastic IP address was assigned the application ceased to function as intended and extensive work was required to bring the project back to the point it had been at prior to this mistake.  The root of the problem was that the site was trying to find assets located at the previous dynamic IP address, including database entries and CSS files.  We were able to access the sever and use the command line interface (CLI) to update the database to reflect the new IP address.  While this solved some of the issues the site functionality was not fully restored.  Further attempts were made to locate and update the  affected files, but due to the time-consuming and complicated nature of the work required it was decided to terminate the instance and start again with a new server.
 </p>
 <br class="clear">
-<h4>Future Project Plans</h4>
+<h3>Future Project Plans</h3>
 <p>
-
+The prototype we have produced as part of this assignment is a good representation of many of the core concepts we would intend to include in the market ready version of Mythos.  The most significant enhancement required is the full integration of the visual planning elements – the map builder, the relationship web and the timeline feature.  This will see a separate environment within the application for the creation of each type of asset, with the ability to save the asset and link to the documentation in the wiki.  This level of integration will greatly enhance to user experience, and development of the features will require considerable skills and knowledge of software programming and design.
+</p>
+<p>
+This leads into the enhancement of the user experience as a whole.  A core goal of Mythos is to be user friendly and intuitive to use.  The management of so much content will require further development of a well-considered user interface.  We have started to develop the UI in the prototype, and this will naturally evolve as the features of the application become more integrated.  Careful consideration must be given to the future direction of this aspect of the project.
+</p>
+<p>
+From a business perspective, we would require further market analysis and a more refined key demographic for targeting of the Mythos brand to the most appropriate audience.  This would allow the project to proceed to launch with a well defined business model and lead to the best chance of financial success.
+</p>
+<p>
+A number of other aspects, such as security, have been discussed in the preceding sections of this report.  Overall we feel that the project is moving in the right direction and are happy with the prototype we have produced.  In sharing some of the details of the project with friends we have found a generally very positive reaction, with most people commenting that it does what it has to without being overcomplicated.
 </p>
 <br class="clear">
 </article>

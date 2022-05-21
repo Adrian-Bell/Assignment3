@@ -83,6 +83,15 @@ article {
 					height: auto;
 	  }
 
+.project-link{
+	width:25%;
+	float:left;
+}
+
+.centered{
+	text-align:center;
+}
+
 .thumbnail{
 	width:14%;
 	height:auto;
