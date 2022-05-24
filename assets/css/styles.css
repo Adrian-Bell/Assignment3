@@ -115,6 +115,10 @@ article {
 		clear:both;
 		}
 
+		table, th, td {
+		  border: 1.5px solid black;
+		  border-collapse: collapse;
+		}
 
 img {
 	  float: right;
